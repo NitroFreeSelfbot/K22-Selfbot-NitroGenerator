@@ -1,0 +1,18 @@
+{
+    "token": "your token- tu token",
+    "password": "your-password - tu contraseña",
+    "prefix": "$",   
+    
+    "nitro_sniper": false, 
+    "giveaway_sniper": false,
+    "slotbot_sniper": false,
+    "privnote_sniper": false,
+
+    "stream_url": "https://twitch.tv/k22selfbot",
+    "tts_language": "en",
+
+    "bitly_key": "bitly-key-here",
+    "cat_key": "cat-key-here",
+    "weather_key": "weather-key-here",
+    "cuttly_key": "cuttly-key-here"
+}
