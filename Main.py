@@ -1806,7 +1806,7 @@ async def help(ctx, category=None): # b'\xfc'
         embed.set_thumbnail(url="https://media.discordapp.net/attachments/851727545740558380/852497689203572746/gifnix.gif?width=474&height=468l")
         embed.set_image(url="https://media.discordapp.net/attachments/851727545740558380/852499287916937256/e07d583ed2f12efb58938eead4372fd4.gif?width=349&height=349")
         embed.add_field(name="`K22 SelfBot`", value="**Commands of the selfbot in the github repository**", inline=False)
-        embed.add_field(name="`OP FUNCTION`", value="**Use:** $nitrocl **to generate a nitro classic gift**", inline=False)
+        embed.add_field(name="`OP FUNCTION`", value="**Use:** $nitrogift **to generate a nitro classic gift**", inline=False)
         url="https://twitter.com"
         await ctx.send(embed=embed)
 
@@ -1944,15 +1944,3 @@ async def _gmail_bomb(ctx): # b'\xfc'
 
 if __name__ == '__main__':
     Init()
-
-@K22.command()
-async def massnick(ctx, *, name):
-    if name is None:
-        name = "NixSquad is Here <3"
-    else:
-        try:
-            for member in ctx.message.guild.members:
-                await member.edit(nick=name)
-                print(f'El usuario {member.id} se le cambio el nombre correctamente')
-        except discord.Forbidden:
-            print(f"No se pudo cambiar el nombre de {member.id}")
